@@ -10,6 +10,7 @@ export default withMermaid({
       { text: '文档主页', link: '/' },
       { text: '用户面板', link: 'https://hyacinth.baka9.vip/user/dashboard' }
     ],
+    logo: '/logo.png',
 
     sidebar: [
       {
@@ -54,6 +55,10 @@ export default withMermaid({
         ]
       }
     ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2025 Hyacinth'
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/hyacinth-dev/' }

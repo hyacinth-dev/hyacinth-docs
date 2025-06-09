@@ -7,8 +7,8 @@ hero:
   text: "由 EasyTier 提供支持的虚拟网络服务"
   tagline: 一个简单、安全、去中心化的异地组网方案
   image:
-    src: ./assets/logo.png
-    alt: VitePress
+    src: /logo.png
+    alt: Hyacinth
   actions:
     - theme: brand
       text: 快速开始

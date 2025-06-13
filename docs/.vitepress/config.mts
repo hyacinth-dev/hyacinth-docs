@@ -39,17 +39,26 @@ export default withMermaid({
             text: '集成测试',
             collapsed: false,
             items: [
+              { 'text': '测试计划', link: '/test-plan' },
               {
                 text: '用户界面测试',
                 collapsed: false,
                 items: [
-                  { 'text': '测试计划', link: '/frontend-test/test-plan' },
                   { 'text': '测试阶段一', link: '/frontend-test/test-Web-1' },
                   { 'text': '测试阶段二', link: '/frontend-test/test-Web-2' },
                   { 'text': '测试阶段三', link: '/frontend-test/test-Web-3' },
                 ]
               },
-              { text: '虚拟组网测试', link: '/vnet-test' },
+              {
+                text: '客户端连接测试',
+                collapsed: false,
+                items: [
+                  { 'text': '总览', link: '/client-test/client-test-overview' },
+                  { 'text': '测试阶段一', link: '/client-test/test-GUI-1' },
+                  { 'text': '测试阶段二', link: '/client-test/test-GUI-2' },
+                  { 'text': '测试阶段三', link: '/client-test/test-GUI-3' },
+                ]
+              },
             ]
           }
         ]

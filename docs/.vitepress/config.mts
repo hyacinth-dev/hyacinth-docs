@@ -35,6 +35,7 @@ export default withMermaid({
           },
           { text: '组会记录', link: '/meeting-notes' },
           { text: '需求文档', link: '/requirements' },
+          { text: '工程化文档', link: '/se_spec' },
           { text: '部署运维', link: '/deploy' },
           { text: '单元测试', link: '/unit-tests' },
           {

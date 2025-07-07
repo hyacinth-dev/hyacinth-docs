@@ -1,6 +1,7 @@
 # 项目概览
 
-欢迎使用 [Hyacinth](https://hyacinth.baka9.vip/)！  
+欢迎使用 [Hyacinth](https://hyacinth.baka9.vip/)！ 
+
 这是一个基于 EasyTier、Go 和 Vue 构建的虚拟组网平台，旨在为跨校园网络通信、远程开发、虚拟局域网游戏联机等场景提供轻量、高效的商业化组网解决方案。
 
 ## 主要功能
